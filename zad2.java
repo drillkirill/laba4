@@ -7,13 +7,13 @@ public class zad2 {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         double v, r, m, h;
-        System.out.print("Введите массу планеты");
+        System.out.println("Введите массу планеты:");
         m = in.nextDouble();
-        System.out.print("Введите массу скорость");
+        System.out.println("Введите скорость:");
         v = in.nextDouble();
-        System.out.print("Введите радиус планете");
+        System.out.println("Введите радиус планеты:");
         r = in.nextDouble();
-        h = pow(v, 2) * pow(r, 2) / 2 * 9.8 * m;
-        System.out.print("h = " + h);
+        h = (pow(v, 2) * pow(r, 2) * 10 * m) / 2;
+        System.out.println("h = " + h);
     }
 }
