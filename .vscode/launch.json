@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch zad5",
+            "request": "launch",
+            "mainClass": "zad5",
+            "projectName": "laba4_8052e9cc"
+        },
+        {
+            "type": "java",
             "name": "Launch zad4",
             "request": "launch",
             "mainClass": "zad4",
